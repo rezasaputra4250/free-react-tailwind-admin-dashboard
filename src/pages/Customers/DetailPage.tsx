@@ -1,4 +1,3 @@
-import React from 'react';
 import Detail from '../../components/Customers/Detail';
 
 function DetailPage() {

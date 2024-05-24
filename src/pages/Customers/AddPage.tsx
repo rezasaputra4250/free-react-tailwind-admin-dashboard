@@ -1,4 +1,3 @@
-import React from 'react';
 import FormAdd from '../../components/Customers/FormAdd';
 
 function AddPage() {

@@ -67,7 +67,7 @@ function List() {
     return (
         <div>
             <div className="flex justify-between items-center mb-4">
-                <h2 className="text-2xl font-bold h1">Daftar Customers</h2>
+                <h2 className="text-2xl font-bold h1">Daftar Pelanggan</h2>
                 <div className="flex items-center">
                     <Link to="/customers/add" className="flex items-center p-2 text-gray-700 hover:bg-gray-300 rounded-full transition-all size-max">
                         <FaPlus />

@@ -29,7 +29,7 @@ const DashboardPage: React.FC = () => {
       <SidebarItem icon={<FaUsers />} text="Customers" to="/customers" />
       <SidebarItem icon={<FaUserCircle />} text="Roles" to="/roles" />
       <SidebarItem icon={<FaClipboardList />} text="Inventory Transactions" to="/inventaryTransacsions" />
-      <SidebarItem icon={<FaListAlt />} text="Order Details" to="/orderdetails" />
+      <SidebarItem icon={<FaListAlt />} text="Order Details" to="/ordersdetails" />
       <SidebarItem icon={<FaShoppingCart />} text="Orders" to="/orders" />
       <SidebarItem icon={<FaListAlt />} text="Purchase Details" to="/purchasedetails" />
       <SidebarItem icon={<FaShoppingCart />} text="Purchases" to="/purchases" />

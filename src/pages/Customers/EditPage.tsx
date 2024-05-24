@@ -1,4 +1,3 @@
-import React from 'react';
 import FormEdit from '../../components/Customers/FormEdit';
 
 function EditPage() {
