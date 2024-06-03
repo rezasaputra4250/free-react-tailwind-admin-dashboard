@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@components': path.resolve(__dirname, 'src/components'),
-      '@pages': path.resolve(__dirname, 'src/pages'),
+      '@components': path.resolve(new URL('.', import.meta.url).pathname, 'src/components'),
+      '@pages': path.resolve(new URL('.', import.meta.url).pathname, 'src/pages'),
     },
   },
 });
